@@ -9,11 +9,11 @@ original_image1 = cv.imread('C:\\Users\\honesty\\Desktop\\car.jpg', cv.IMREAD_GR
 original_image2 = cv.imread('C:\\Users\\honesty\\Desktop\\test3.jpg', cv.IMREAD_GRAYSCALE)
 
 # #변환처리 : 이미지 덧셈/곱셈
-# alpha = 0.6;  beta = 0.7
-# add_image1 = original_image1 + original_image2
-# add_image2 = original_image1 * 0.5 + original_image2 * 0.5
-# add_image3 = original_image1 * alpha + original_image2 * (1-alpha)
-# add_image4 = cv.addWeighted(original_image1, alpha, original_image2, beta, 0.0)
+alpha = 0.6;  beta = 0.7
+add_image1 = original_image1 + original_image2
+add_image2 = original_image1 * 0.5 + original_image2 * 0.5
+add_image3 = original_image1 * alpha + original_image2 * (1-alpha)
+add_image4 = cv.addWeighted(original_image1, alpha, original_image2, beta, 0.0)
 
 # #변환처리 : 이미지 add()
 # alpha = 0.6;  beta = 0.7
