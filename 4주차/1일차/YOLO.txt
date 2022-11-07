@@ -2,3 +2,12 @@ SSD
     물체 탐지 속도 빠름
     필터 처리를 한번에 진행
     지금은 버전업 되어있는 것들이 많아서 사용하지 않음
+
+모델링
+    Estimater
+        학습 → model 1개 or 앙상블(머신러닝), 출력층-hidden층(dense)-입력층(딥러닝)
+        역전파
+            예측값과 실측값의 차이를 통해 재정의
+            오류표현식 + cost를 통해 재정의하는 것을 cost func(= optimizer)라고 함
+    fit
+    predict
